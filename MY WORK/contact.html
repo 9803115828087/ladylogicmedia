@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header12">
+     <nav>
+        <a href="index.html"><h2>ladylogicMEdia</h2></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()">X</i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()">=</i>
+
+     </nav>
+    <h1>Contact Us</h1>
+    </section>
+    <section class="location">
+      <img src="pictures/google map.png" alt="">
+    </section>
+    <!----------about us content---------------->
+<section class="contact-us">
+<div class="row">
+    <div class="contact-col">
+        <div>
+         <h5>2693 Mashinini street ext36 <br>
+         EMAPHUPHENI ETWATWA 1519
+         </h5>
+        </div>
+        <div>
+            <h5>+27660581247 / +27680613424 <br>
+            Mnnday to surturday ,10AM to 17PM  </h5> 
+           </div>
+           <div>
+            <h5>Ladylogicmediacompany@gmail.com <br>
+                email for booking us.
+            </h5> 
+            
+            <img src="pictures/email_3296467.png" alt=""> 
+           </div>
+    </div>
+    <div class="contact-col">
+        <form action="form-handler.php"method="post">
+            <input type="text "name="name" placeholder="Enter your name" required>
+            <input type="email"name="email"  placeholder="Enter your email" required>
+            <input type="text"name="subject " placeholder="Enter your Subject" required>
+            <textarea  rows="10"name="message" placeholder="please explain type of service you want"></textarea>
+             <button type="submit" class="hero-btn">Send Message</button>
+        </form>
+    </div>
+</div>
+</section>
+
+
+    <!----------FOOTER---------------->
+<section class="footer">
+
+<p>our company aims to elevate ,support and provide opportunities
+    <br>and employment, this company was founded by DUDUZILE SARAH MAHLANGU <br>at 
+    the year 2023 to conribute in decreasing unemployment and enhance skills as well as knowledge
+</p>
+</section>
+
+
+    <!-----------java script code---------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+function showmenu(){
+navLinks.style.right ="0"
+}
+function hidemenu(){
+navLinks.style.right ="-200px"
+}
+</script>
+   
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+     <nav>
+        <a href="index.html"><h2>ladylogicMEdia</h2></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()">X</i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()">=</i>
+
+     </nav>
+    <h1>About us</h1>
+    </section>
+    <!----------about us content---------------->
+<section class="about-us">
+<div class="row">
+    <div class="about-col">
+<h1>We are a growing multimedia company</h1>
+<p>ladylogic media is a well established media company found by duduzile sarah mahlangu
+    with the aim to cut costs in media production and make<br>production process easey
+    interms of saving time and produce adequate results at all times .
+
+    our analysis driven aproach by anticipating the actions and reactions of others.
+    it creates coherent actions that build on one another instead of cancelling each other
+    out.based on this assesment, we will develop strategic options for consideration
+    (the strategic options wil adress the problems you face or allow you to seize opportunities that might
+    be presenting themselves) 
+     </p>
+  <a href="blog.html"class="hero-btn">Explore Now </a>
+    </div>
+    <div class="about-col">
+<img src="pictures/images (9).jpeg" alt="">
+    </div>
+</div>
+</section>
+
+
+    <!----------FOOTER---------------->
+<section class="footer">
+<h4>About Us</h4>
+<p>our company aims to elevate ,support and provide opportunities
+    <br>and employment, this company was founded by DUDUZILE SARAH MAHLANGU <br>at 
+    the year 2023 to conribute in decreasing unemployment and enhance skills as well as knowledge
+</p>
+</section>
+
+
+    <!-----------java script code---------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+function showmenu(){
+navLinks.style.right ="0"
+}
+function hidemenu(){
+navLinks.style.right ="-200px"
+}
+</script>
+   
+</body>
+</html>
